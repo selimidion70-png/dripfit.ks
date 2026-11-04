@@ -1,0 +1,9 @@
+# Réglages de l'hébergement (mot de passe de la base) : ne jamais les mettre dans git
+/config/production.php
+
+# Journaux d'erreurs du site en ligne
+/logs/*.log
+
+# Notes de travail pour l'assistant de code
+/AGENTS.md
+/CLAUDE.md

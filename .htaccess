@@ -1,0 +1,15 @@
+# ============================================================
+#  DripFit.ks — protection des fichiers internes
+#  Seuls index.php et le dossier public/ doivent être accessibles
+#  depuis le navigateur. Le reste renvoie une erreur 404.
+# ============================================================
+
+# Dossiers internes (code, base de données, journaux)
+RedirectMatch 404 /(config|controllers|models|views|database|logs)(/|$)
+
+# Fichiers sensibles (.md, .sql, .log, .ini) et fichiers cachés comme .htaccess
+RedirectMatch 404 \.(md|sql|log|ini)$
+RedirectMatch 404 /\.
+
+# Pas de liste des fichiers quand un dossier n'a pas d'index
+Options -Indexes

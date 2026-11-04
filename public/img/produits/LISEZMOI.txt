@@ -1,0 +1,4 @@
+Les photos des produits sont enregistrées ici automatiquement
+quand on les ajoute dans l'espace admin (Admin > Produktet > un produit > Fotoja).
+Formats acceptés : JPG, PNG, WEBP, 3 Mo maximum. Format conseillé : portrait 4:5.
+Tant qu'un produit n'a pas de photo, le site affiche le logo à la place.

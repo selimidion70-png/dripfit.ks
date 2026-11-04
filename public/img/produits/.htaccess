@@ -1,0 +1,4 @@
+# Dossier des photos envoyées depuis l'admin : on n'y exécute jamais de PHP
+<FilesMatch "\.(php|phtml|phar|php\d)$">
+    Require all denied
+</FilesMatch>
