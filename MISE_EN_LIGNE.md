@@ -51,7 +51,7 @@ public/
 logs/              ← avec son .htaccess
 ```
 
-Pas besoin d'envoyer : `database/`, `CLAUDE.md`, `MISE_EN_LIGNE.md` (ils sont de toute façon bloqués par le `.htaccess`).
+Pas besoin d'envoyer : `database/`, `MISE_EN_LIGNE.md` (ils sont de toute façon bloqués par le `.htaccess`).
 
 Le dossier **`public/img/produits/`** doit être **modifiable** par PHP (photos envoyées depuis l'admin),
 ainsi que **`logs/`** (journal des erreurs). Si l'envoi de photo échoue : clic droit → Permissions → `755`.
