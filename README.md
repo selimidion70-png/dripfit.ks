@@ -5,6 +5,8 @@ Le site s'adresse à une clientèle du Kosovo, d'Albanie et de Macédoine du Nor
 
 > Projet réel en cours de développement pour un petit commerce. Les produits de la base d'exemple sont inventés.
 
+![Aperçu de la page d'accueil de DripFit.ks](docs/apercu.jpg)
+
 ---
 
 ## ✨ Fonctionnalités
